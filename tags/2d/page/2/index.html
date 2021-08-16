@@ -17,7 +17,7 @@
 <body class="page list">
 <header>
 <a href=/GitHubPagesStore>
-<img src=https://hugoinaction.github.io/GitHubPagesStore/logo.svg alt="Acme Logo" width=48>
+<img src=https://hugoinaction.github.io/GitHubPagesStore/logo.svg alt="Acme Logo" height=36 width=48>
 Acme Corporation
 </a>
 <span id=search>
@@ -78,9 +78,18 @@ Please add some items to the cart.
 <form>
 <input type=hidden name=name value=Square>
 <div class=colors>
+<label>
 <input type=radio name=color value=Red checked>
+<span class=sr-only>Red</span>
+</label>
+<label>
 <input type=radio name=color value=Pink>
+<span class=sr-only> Pink</span>
+</label>
+<label>
 <input type=radio name=color value=Blue>
+<span class=sr-only> Blue</span>
+</label>
 </div>
 <button class=addToCart type=submit>Add to cart</button>
 </form>
@@ -115,6 +124,9 @@ Please add some items to the cart.
 </li>
 <li>
 <a href=/GitHubPagesStore/privacy>Privacy policy</a>
+</li>
+<li>
+<a href=/GitHubPagesStore/credits/>Credits</a>
 </li>
 </ul>
 </nav>

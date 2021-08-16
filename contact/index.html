@@ -29,7 +29,7 @@ Archanta
 📧 contact@example.org">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://hugoinaction.github.io/GitHubPagesStore/contact/"><meta property="og:image" content="https://hugoinaction.github.io/GitHubPagesStore/contact/cover.png"><meta property="article:section" content>
-<meta property="article:modified_time" content="2021-08-13T14:19:51-07:00">
+<meta property="article:modified_time" content="2021-08-15T23:47:52-07:00">
 <link rel=icon type=image/png href=https://hugoinaction.github.io/GitHubPagesStore/image/favicon_hue010d4fad590a87d325b7e07b2e61f59_2460_1e463977f25e99f95ee0709bc3be812b.png>
 <link rel=stylesheet type=text/css href=https://hugoinaction.github.io/GitHubPagesStore/index.min.css>
 <title>Contact Us</title>
@@ -38,7 +38,7 @@ Archanta
 <body class="contact page">
 <header>
 <a href=/GitHubPagesStore>
-<img src=https://hugoinaction.github.io/GitHubPagesStore/logo.svg alt="Acme Logo" width=48>
+<img src=https://hugoinaction.github.io/GitHubPagesStore/logo.svg alt="Acme Logo" height=36 width=48>
 Acme Corporation
 </a>
 <span id=search>
@@ -112,7 +112,7 @@ We are facing an issue submitting the contact form. Please try again later.
 <form data-dynamic-form data-success=#contact-success data-error=#contact-error action=https://formspree.io/f/mjvpbrvy method=post>
 <div>
 <label for=name>Name:</label>
-<input name=name type=text required>
+<input id=name name=name type=text required>
 </div>
 <div>
 <label for=email>Email:</label>
@@ -120,7 +120,7 @@ We are facing an issue submitting the contact form. Please try again later.
 </div>
 <div>
 <label for=message>Message:</label>
-<textarea name=message cols=50 rows=10 required></textarea>
+<textarea id=message name=message cols=50 rows=10 required></textarea>
 </div>
 <div>
 <button type=submit>Send</button>
@@ -142,6 +142,9 @@ We are facing an issue submitting the contact form. Please try again later.
 </li>
 <li>
 <a href=/GitHubPagesStore/privacy>Privacy policy</a>
+</li>
+<li>
+<a href=/GitHubPagesStore/credits/>Credits</a>
 </li>
 </ul>
 </nav>
